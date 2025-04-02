@@ -13,7 +13,7 @@ Dieses Projekt bietet eine statistische Auswertung von Prüfungsarchiven, basier
 ## Beispielausgaben
 
 ### Themenverteilung in 10 Prüfungen
-![Themenverteilung](statistics/StatistikThemenverteilung.png)
+![Themenverteilung](statistics/StatistikThemenvereteilung.png)
 
 ### Aufgabentypen in 10 Prüfungen
 ![Aufgabentypen](statistics/StatistikAufgabentypen.png)
