@@ -13,7 +13,7 @@ Welche Kombinationen treten regelmäßig auf?
 2. Vorbereitung für ML-Vorhersage:
 Du willst ein Modell bauen, das vorhersagt, welche Aufgaben wahrscheinlich in der nächsten Klausur drankommen. Dafür brauchst du:
 
-Aufgabenstellungen in strukturierter Form (✅ hast du jetzt)
+Aufgabenstellungen in strukturierter Form 
 
 Mögliche Features wie: Thema, Aufgabentyp, Keywords, Position in Klausur usw.
 
