@@ -31,6 +31,11 @@ Die Daten stammen aus 10 simulierten Prüfungen eines bestimmten Fachbereichs(hi
 
 Die Inhalte basieren auf realen Prüfungen, wurden aber leicht abgewandelt (z. B. Synonyme, Umstellungen), um unterschiedliche Formulierungen bei gleichbleibender Intention zu simulieren. Zusätzlich wurde eine zufällige Varianz von ca. 20 % eingebaut, um realistische Abweichungen zu berücksichtigen.
 
+Für die eigentliche Analyse wurden bewusst 10 Prüfungen berücksichtigt, da dies einem typischen Prüfungszeitraum mehrerer Jahrgänge entspricht und somit eine realistische Grundlage für Prognosen bildet.
+
+Im Ordner `data/` befinden sich zusätzlich 50 simulierte Prüfungsdateien, die ein umfangreicheres Archiv abbilden. Sie wurden generiert, um das Analyseverhalten bei größeren Datenmengen zu testen. Damit diese verwendet werden können, muss die Logik im Analyse-Notebook (`notebooks/analyse_aufgaben.ipynb`) entsprechend angepasst werden – z. B. durch ein automatisiertes Einlesen ALLER JSON-Dateien im Verzeichnis.
+
+
 ## Nutzung
 
 1. Virtuelle Umgebung aktivieren (empfohlen):
@@ -58,12 +63,12 @@ Beim Durchlauf des Notebooks wird automatisch:
 
 | Pfad                | Beschreibung                                                                 |
 |---------------------|------------------------------------------------------------------------------|
-| `data/`             | Enthält die JSON-Dateien der 10 Prüfungsvarianten (skalierbar nach Fach/Menge) |
-| `notebooks/`        | Analyse-Notebook (ipynb)                                                      |
-| `output/`           | Exportierte CSV-Dateien und ggf. Visualisierungen                            |
-| `statistics/`       | Grafische Ausgaben der statistischen Analyse                                 |
-| `requirements.txt`  | Paketliste für Python-Umgebung                                               |
-| `README.md`         | Diese Dokumentation                                                          |
+| `data/`             | Enthält die JSON-Dateien der 50 varianten (skalierbar nach Fach/Menge) |
+| `notebooks/`        | Analyse-notebook (ipynb)                                                      |
+| `output/`           | Exportierte CSV-Dateien                             |
+| `statistics/`       | grafische Ausgaben der statistischen Analyse                                 |
+| `requirements.txt`  | Paketliste für Umgebung                                               |
+
 
 ## Skalierbarkeit und Erweiterung
 
