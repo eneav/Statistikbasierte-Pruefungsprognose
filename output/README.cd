@@ -1,0 +1,35 @@
+ Was bringt dir diese Liste?
+1. Grundlage für weitere Auswertungen (Statistik / Vorhersage):
+Du brauchst diese gebündelte Liste, um statistisch zu analysieren:
+
+Welche Themen kommen oft vor?
+
+Welche Aufgabentypen sind häufig?
+
+Welche Formulierungen wiederholen sich?
+
+Welche Kombinationen treten regelmäßig auf?
+
+2. Vorbereitung für ML-Vorhersage:
+Du willst ein Modell bauen, das vorhersagt, welche Aufgaben wahrscheinlich in der nächsten Klausur drankommen. Dafür brauchst du:
+
+Aufgabenstellungen in strukturierter Form (✅ hast du jetzt)
+
+Mögliche Features wie: Thema, Aufgabentyp, Keywords, Position in Klausur usw.
+
+3. Sprachmodell-Vorbereitung (RAG):
+Die frage-Spalte ist ideal, um damit ein Retrieval-Modell oder Embedding-Training durchzuführen, z. B. für:
+
+Ähnlichkeitssuche
+
+Clustering nach Thema
+
+Frageklassifikation
+
+Beispiel: Was du damit jetzt machen könntest
+
+Idee	                             Beispiel
+ Häufigkeit pro Thema	             Gruppieren nach "thema" und zählen
+Ähnlichkeit	                         Mithilfe von Embeddings Fragen clustern
+ Wahrscheinlichkeitsmatrix           Berechnen, wie oft bestimmte Themen in klausur_nr vorkommen
+Aufgabentyp-Verteilung               aufgabentyp nach thema oder jahr filtern
