@@ -27,6 +27,8 @@ Die Daten stammen aus 10 simulierten Prüfungen eines bestimmten Fachbereichs(hi
 - `frage` – Die Aufgabenstellung
 - `antwort` – Die Musterlösung
 
+![FORMAT](datenformatJSON.PNG)
+
 Die Inhalte basieren auf realen Prüfungen, wurden aber leicht abgewandelt (z. B. Synonyme, Umstellungen), um unterschiedliche Formulierungen bei gleichbleibender Intention zu simulieren. Zusätzlich wurde eine zufällige Varianz von ca. 20 % eingebaut, um realistische Abweichungen zu berücksichtigen.
 
 ## Nutzung
@@ -73,4 +75,3 @@ Das Analyse-Tool wurde zunächst für ein einzelnes Fach und 10 Prüfungen umges
 
 ---
 
-*Letzte Aktualisierung: April 2025*
