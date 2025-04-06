@@ -70,9 +70,9 @@ Beim Durchlauf des Notebooks wird automatisch:
 | `requirements.txt`  | Paketliste für Umgebung                                               |
 
 
-## Skalierbarkeit und Erweiterung
+## Skalierbarkeit und Erweiterung 
 
-Das Analyse-Tool wurde zunächst für ein einzelnes Fach und 10 Prüfungen umgesetzt. Es lässt sich jedoch leicht erweitern:
+Das Analyse-Tool wurde zunächst für ein einzelnes Fach und 10 Prüfungen umgesetzt. Es lässt sich jedoch leicht  erweitern:
 
 - Weitere Fächer und Jahrgänge können ergänzt werden (mehr Daten = genauere Muster)
 - Bestehende JSON-Struktur unterstützt automatisierte Verarbeitung
